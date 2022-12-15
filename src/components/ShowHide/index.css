@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 7px;
+  border-radius: 7px;
+  color: #dd1264;
+  border-style: none;
+}
+.name-card {
+  background-color: #fddddb;
+  border-radius: 10px;
+  height: 120px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 30px;
+}
